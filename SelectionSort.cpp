@@ -1,5 +1,3 @@
-#include <vector>
-
 /*****************************************************************************
 *    Brian Chairez
 *
@@ -10,6 +8,8 @@
 *        Space Complexity:
 *            O(1) (in-place)
 *****************************************************************************/
+
+#include <vector>
 
 template <class T>
 void SelectionSort(std::vector<T>& array) {
